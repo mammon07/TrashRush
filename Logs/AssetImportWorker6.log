@@ -1,0 +1,271 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 24301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\.KULIAH\Unity\Unity 2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/.KULIAH/Unity/UAS
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+62148
+Successfully changed project path to: D:/.KULIAH/Unity/UAS
+D:/.KULIAH/Unity/UAS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1900] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3527626654 [EditorId] 3527626654 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JTNMBD8H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1900] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3527626654 [EditorId] 3527626654 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JTNMBD8H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path D:/.KULIAH/Unity/Unity 2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/.KULIAH/Unity/UAS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'D:/.KULIAH/Unity/Unity 2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/.KULIAH/Unity/Unity 2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/.KULIAH/Unity/Unity 2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/.KULIAH/Unity/Unity 2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002097 seconds.
+- Loaded All Assemblies, in  0.250 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.212 seconds
+Domain Reload Profiling: 463ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (213ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (167ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 866ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (311ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (57.1 KB). Loaded Objects now: 3652.
+Memory consumption went from 131.9 MB to 131.9 MB.
+Total: 2.581500 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.071300 ms MarkObjects: 2.227700 ms  DeleteObjects: 0.091400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TrashbinYellowInteraction.cs: b828066cdcb549a8372262774cedc14d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1547956.086795 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Food/Apple Core Red.prefab
+  artifactKey: Guid(89aee7577d87360428a678ee7c536650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Food/Apple Core Red.prefab using Guid(89aee7577d87360428a678ee7c536650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1342564f96b37ede61ae27acef3fcf4f') in 0.115655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 86.319694 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Porcelin and Pottery/Mug White Broken.prefab
+  artifactKey: Guid(f28785f5d61fb5041ad3d9ba8f5d8e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Porcelin and Pottery/Mug White Broken.prefab using Guid(f28785f5d61fb5041ad3d9ba8f5d8e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaff2ad8dd78b940c4427d02f59ff5a1') in 0.024156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Orange.fbx
+  artifactKey: Guid(b78d4d99334c2ef4b836e036aa4ac46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Orange.fbx using Guid(b78d4d99334c2ef4b836e036aa4ac46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b7d08ddfe2b04eacd3063273a6c9c4') in 0.048127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/Orange_Collider.fbx
+  artifactKey: Guid(5976791a72094af4cad3d79fda85bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/Orange_Collider.fbx using Guid(5976791a72094af4cad3d79fda85bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296c714a2130fb08501fb23367eb6b8d') in 0.036984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Prefabs/Plate.prefab
+  artifactKey: Guid(7bb28b91771122947b105eb8c84c60bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Prefabs/Plate.prefab using Guid(7bb28b91771122947b105eb8c84c60bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c679fb41ddb34e5e1e4f17446726d0') in 0.053983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Prefabs/Pumpkin.prefab
+  artifactKey: Guid(b922a5b155ebfe6419f3627e6daaea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Prefabs/Pumpkin.prefab using Guid(b922a5b155ebfe6419f3627e6daaea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9367a60693e77450eb045ba0f3ed32e1') in 0.057341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Pumpkin.fbx
+  artifactKey: Guid(2dce7b3b69e93b4459d68c1e0ba7a3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Pumpkin.fbx using Guid(2dce7b3b69e93b4459d68c1e0ba7a3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752aa301ebba25252e0b1cdde83fef50') in 0.041359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Prefabs/Plate.prefab
+  artifactKey: Guid(fb35f63371a965948a837a6f3f074bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Prefabs/Plate.prefab using Guid(fb35f63371a965948a837a6f3f074bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3a4f07430fecfd155e8b542db205a4') in 0.029916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Porcelin and Pottery/Pint Glass.prefab
+  artifactKey: Guid(f0c34ecd5a4753b4d90d4d34e6946b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Porcelin and Pottery/Pint Glass.prefab using Guid(f0c34ecd5a4753b4d90d4d34e6946b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3d123422dc933d3a9668953c3c647b') in 0.038340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/Plate_Collider.fbx
+  artifactKey: Guid(ba77aa4874adf284fae68f03acc56e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/Plate_Collider.fbx using Guid(ba77aa4874adf284fae68f03acc56e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ea1cd5e4aeef4f519050efc2355046') in 0.020038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/Orange.fbx
+  artifactKey: Guid(a4a783a2959fad14184dde69140e8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/Orange.fbx using Guid(a4a783a2959fad14184dde69140e8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f803a8520e5a80e2eff3b7e8803a803') in 0.037000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
